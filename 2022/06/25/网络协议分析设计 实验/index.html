@@ -1,20 +1,20 @@
 <!doctype html>
 <html lang="en"><head>
-<title>SilentWaverの博客</title>
+<title>网络协议分析设计 实验 - SilentWaverの博客</title>
 <meta charset="UTF-8">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<meta name="description" content="网络协议分析设计 实验记一下西电网信院2020年网络协议分析设计试验 promela语言建议看书，看基本语法，然后搜两个实例看看，就会了 但这傻逼语言也没几个人用。 jq，wdqr！">
+<meta name="description" content="记一下西电网信院2020年网络协议分析设计试验 promela语言建议看书，看基本语法，然后搜两个实例看看，就会了 但这傻逼语言也没几个人用。 jq，wdqr！">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SilentWaverの博客">
+<meta property="og:title" content="网络协议分析设计 实验">
 <meta property="og:url" content="https://silentwaver.github.io/2022/06/25/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90%E8%AE%BE%E8%AE%A1%20%E5%AE%9E%E9%AA%8C/index.html">
 <meta property="og:site_name" content="SilentWaverの博客">
-<meta property="og:description" content="网络协议分析设计 实验记一下西电网信院2020年网络协议分析设计试验 promela语言建议看书，看基本语法，然后搜两个实例看看，就会了 但这傻逼语言也没几个人用。 jq，wdqr！">
+<meta property="og:description" content="记一下西电网信院2020年网络协议分析设计试验 promela语言建议看书，看基本语法，然后搜两个实例看看，就会了 但这傻逼语言也没几个人用。 jq，wdqr！">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-06-25T14:20:46.000Z">
-<meta property="article:modified_time" content="2022-06-25T14:20:46.000Z">
+<meta property="article:modified_time" content="2023-12-25T07:24:55.995Z">
 <meta property="article:author" content="SilentWaver">
 <meta name="twitter:card" content="summary">
 
@@ -22,15 +22,15 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1703488577312">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1703490771673">
 
-<link rel="stylesheet" href="/css/style.css?v=1703488577312">
+<link rel="stylesheet" href="/css/style.css?v=1703490771673">
 
 
 
 
     
-        <link rel="stylesheet" href="/custom.css?v=1703488577312">
+        <link rel="stylesheet" href="/custom.css?v=1703490771673">
     
 
 
@@ -40,7 +40,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1703488577312"></script>
+<script async src="/js/app.js?v=1703490771673"></script>
 
  
 
@@ -56,14 +56,14 @@
 
 
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
-<meta name="generator" content="Hexo 7.0.0"></head><body class="nexmoe mdui-drawer-body-left"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(https://raw.githubusercontent.com/silentwaver/DrawBed/main/images/1E7D4057-F2A2-40B1-B410-22050BE56D5A.jpeg)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="SilentWaver"><img src="https://raw.githubusercontent.com/silentwaver/DrawBed/main/imagesImage_1703346180352.jpg" alt="SilentWaver"></a></div></div></div><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
+<meta name="generator" content="Hexo 6.3.0"></head><body class="nexmoe mdui-drawer-body-left"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(https://raw.githubusercontent.com/silentwaver/DrawBed/main/images/1E7D4057-F2A2-40B1-B410-22050BE56D5A.jpeg)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="SilentWaver"><img src="https://raw.githubusercontent.com/silentwaver/DrawBed/main/imagesImage_1703346180352.jpg" alt="SilentWaver"></a></div></div></div><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
     <div class="nexmoe-avatar mdui-ripple">
         <a href="/" title="SilentWaver">
             <img src="https://raw.githubusercontent.com/silentwaver/DrawBed/main/imagesImage_1703346180352.jpg" alt="SilentWaver" alt="SilentWaver">
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>Articles</span>18</div>
+        <div><span>Articles</span>17</div>
         <div><span>Tags</span>0</div>
         <div><span>Categories</span>0</div>
     </div>
@@ -76,7 +76,7 @@
             </div>
         </a>
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archive.html" title="文章归档">
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archives.html" title="文章归档">
             <i class="mdui-list-item-icon nexmoefont icon-container"></i>
             <div class="mdui-list-item-content">
                 文章归档
@@ -127,7 +127,7 @@
 	<div class="nexmoe-widget nexmoe-social">
 		<a
 			class="mdui-ripple"
-			href="https://jq.qq.com/?_wv=1027&k=5CfKHun"
+			href="tencent://message/?uin=928872571&Site=&Menu=yes"
 			target="_blank"
 			mdui-tooltip="{content: 'QQ群'}"
 			style="
@@ -140,7 +140,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://space.bilibili.com/20238211"
+			href="https://space.bilibili.com/12613738"
 			target="_blank"
 			mdui-tooltip="{content: '哔哩哔哩'}"
 			style="
@@ -166,7 +166,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://twitter.com/nexmoe"
+			href="https://twitter.com/SilentVver"
 			target="_blank"
 			mdui-tooltip="{content: 'Twitter'}"
 			style="
@@ -195,7 +195,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">Archive</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">18</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">17</span></li></ul>
     </div>
   </div>
 
@@ -210,11 +210,7 @@
       <ul>
         
           <li>
-            <a href="/2022/06/25/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90%E8%AE%BE%E8%AE%A1%20%E5%AE%9E%E9%AA%8C/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2022/06/25/%E5%AF%B9JS%E9%97%AD%E5%8C%85%E7%9A%84%E7%90%86%E8%A7%A3/">(no title)</a>
+            <a href="/2022/06/25/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90%E8%AE%BE%E8%AE%A1%20%E5%AE%9E%E9%AA%8C/">网络协议分析设计 实验</a>
           </li>
         
           <li>
@@ -229,55 +225,29 @@
             <a href="/2022/06/25/ubuntu%20sudo%20apt%20update%20%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8D%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">(no title)</a>
           </li>
         
+          <li>
+            <a href="/2022/06/25/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%AE%B0%E5%BD%95/">(no title)</a>
+          </li>
+        
       </ul>
     </div>
   </div>
 
     
         
-        <div class="nexmoe-widget-wrap">
-    <div class="nexmoe-widget nexmoe-link">
-		<ul>
-        
-            <li>
-                <a href="https://nexmoe.com/" target="_blank" >
-                    <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="折影轻梦"></img>
-                    <p>折影轻梦</p>
-                </a>
-            </li>
-        
-		</ul>
-    </div>
-</div>
-<style>
-.nexmoe-widget-wrap .nexmoe-link ul li a {
-    text-align : center;
-}
-.nexmoe-widget-wrap .nexmoe-link ul li a img {
-    max-width : 100%;
-}
-.nexmoe-widget-wrap .nexmoe-link ul li a p {
-    margin: 10px 0;
-}
-</style>
-
-    
    
     <div class="nexmoe-copyright">
         &copy; 2023 SilentWaver
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2020018486号</a>
-<br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
-<img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a>
-
+        
     </div>
 </div><!-- .nexmoe-drawer --></div><div id="nexmoe-content"><div class="nexmoe-primary"><div class="nexmoe-post">
   <article>
     
         <div class="nexmoe-post-cover"> 
-            <img src="https://raw.githubusercontent.com/silentwaver/DrawBed/main/images/1E7D4057-F2A2-40B1-B410-22050BE56D5A.jpeg" alt="" loading="lazy">
-            <h1></h1>
+            <img src="https://raw.githubusercontent.com/silentwaver/DrawBed/main/images/1E7D4057-F2A2-40B1-B410-22050BE56D5A.jpeg" alt="网络协议分析设计 实验" loading="lazy">
+            <h1>网络协议分析设计 实验</h1>
         </div>
     
     
@@ -294,7 +264,7 @@
     
 </div>
 
-    <h1 id="网络协议分析设计-实验"><a href="#网络协议分析设计-实验" class="headerlink" title="网络协议分析设计 实验"></a>网络协议分析设计 实验</h1><p>记一下西电网信院2020年网络协议分析设计试验</p>
+    <p>记一下西电网信院2020年网络协议分析设计试验</p>
 <p>promela语言建议看书，看基本语法，然后搜两个实例看看，就会了</p>
 <p>但这傻逼语言也没几个人用。</p>
 <p>jq，wdqr！</p>
@@ -307,7 +277,7 @@
 <h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="实验3-GBN协议的形式化描述与验证"><a href="#实验3-GBN协议的形式化描述与验证" class="headerlink" title="实验3          GBN协议的形式化描述与验证"></a>实验3          <strong>GBN协议的形式化描述与验证</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line">#define MAX 25 //定义发送报文计数的最大值</span><br><span class="line"></span><br><span class="line">chan s_r=[10] of &#123;mtype,byte,byte&#125;;</span><br><span class="line">chan r_s=[10] of &#123;mtype,byte,byte&#125;;</span><br><span class="line"></span><br><span class="line">mtype=&#123;mesg, ack, err&#125;;</span><br><span class="line"></span><br><span class="line">proctype udt_sender() //发送端进程</span><br><span class="line">&#123;</span><br><span class="line">  byte s,r,swl;/*swl：first identify s:next trans r：ackNO*/</span><br><span class="line">  swl = 0;</span><br><span class="line">  do   </span><br><span class="line">    ::swl = swl;</span><br><span class="line">    progress:</span><br><span class="line">        s = swl;</span><br><span class="line">    progress1:   /*随机发送多个分组*/</span><br><span class="line">        if</span><br><span class="line">        ::s_r!mesg(0,s)-&gt;</span><br><span class="line">            (swl&lt;=s)-&gt;</span><br><span class="line">            s = (s+1)%MAX;</span><br><span class="line">            if</span><br><span class="line">            ::goto progress1;</span><br><span class="line">            ::skip</span><br><span class="line">            fi;</span><br><span class="line"></span><br><span class="line">        ::s_r!err(s,0) -&gt;</span><br><span class="line">            (swl&lt;=s)-&gt;</span><br><span class="line">            s = (s+1)%MAX;</span><br><span class="line">            if</span><br><span class="line">            ::goto progress1;</span><br><span class="line">            ::skip</span><br><span class="line">            fi;</span><br><span class="line"></span><br><span class="line">        ::skip -&gt; //丢失</span><br><span class="line">            (swl&lt;=s)-&gt;s = (s+1)%MAX;</span><br><span class="line">            if</span><br><span class="line">            ::goto progress1;</span><br><span class="line">            ::skip</span><br><span class="line">            fi;</span><br><span class="line">        fi;</span><br><span class="line"></span><br><span class="line">        if</span><br><span class="line">        ::timeout -&gt;goto progress/*超时重发*/</span><br><span class="line">        ::r_s?err(0,r) -&gt;skip   /*错误丢弃*/</span><br><span class="line">        ::r_s?ack(r,0) -&gt;       </span><br><span class="line">            if</span><br><span class="line">            ::(r&lt;swl) -&gt; skip</span><br><span class="line">            ::(r&gt;s) -&gt;skip</span><br><span class="line">            ::(swl&lt;=r&lt;=s) -&gt;</span><br><span class="line">                swl = r;</span><br><span class="line">                goto progress;</span><br><span class="line">            fi;</span><br><span class="line">        fi;</span><br><span class="line">  od</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">proctype udt_receiver() //接收端进程</span><br><span class="line">&#123;</span><br><span class="line">    byte t,es;/*t：接收数据，es：预期接收数据*/</span><br><span class="line">    es = 0;</span><br><span class="line">    do</span><br><span class="line">        ::s_r?mesg(0,t) -&gt;</span><br><span class="line">            if</span><br><span class="line">            ::(t==es)-&gt;</span><br><span class="line">                progress2:es = (es + 1)%MAX;</span><br><span class="line">                if</span><br><span class="line">                ::r_s!ack(es,0)</span><br><span class="line">                ::r_s!err(0,es)</span><br><span class="line">                ::skip</span><br><span class="line">                fi</span><br><span class="line"></span><br><span class="line">            ::(t!=es)-&gt;</span><br><span class="line">                if</span><br><span class="line">                ::r_s!ack(es,0)</span><br><span class="line">                ::r_s!err(0,es)</span><br><span class="line">                ::skip</span><br><span class="line">                fi</span><br><span class="line">            fi</span><br><span class="line"></span><br><span class="line">        ::s_r?err(t,0)-&gt;</span><br><span class="line">            if</span><br><span class="line">            ::r_s!ack(es,0)</span><br><span class="line">            ::r_s!err(0,es)</span><br><span class="line">            ::skip</span><br><span class="line">            fi</span><br><span class="line">    od</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">init</span><br><span class="line">&#123;</span><br><span class="line">  run udt_sender();</span><br><span class="line">  run udt_receiver();</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 
-    <p><img src="https://i.dawnlab.me/53a8c7cf3ad77a0f0a456ce2c6afe88a.png" loading="lazy"></p>
+    <p><img src="" loading="lazy"></p>
 
   </article>
 
@@ -331,13 +301,12 @@
 </div>
   
   
-    <script async src="/js/copy-codeblock.js?v=1703488577305"></script>
+    <script async src="/js/copy-codeblock.js?v=1703490771659"></script>
   
 
   
       <div class="nexmoe-post-footer">
-          请在你的配置文件中设置 slotComment
-
+          
       </div>
   
 </div></div><div class="nexmoe-post-right">    <div class="nexmoe-fixed">
@@ -350,7 +319,7 @@
             <button class="mdui-fab catalog" style="overflow:unset;">
                 <i class="nexmoefont icon-i-catalog"></i>
                 <div class="nexmoe-toc">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90%E8%AE%BE%E8%AE%A1-%E5%AE%9E%E9%AA%8C"><span class="toc-number">1.</span> <span class="toc-text">网络协议分析设计 实验</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C1-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%8F%8F%E8%BF%B0%E4%B8%8E%E9%AA%8C%E8%AF%81"><span class="toc-number">1.0.0.1.</span> <span class="toc-text">实验1  数据链路层协议的形式化描述与验证</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C2-AB%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%8F%8F%E8%BF%B0%E4%B8%8E%E9%AA%8C%E8%AF%81"><span class="toc-number">1.0.1.</span> <span class="toc-text">实验2          AB协议的形式化描述与验证</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">1.0.2.</span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C3-GBN%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%8F%8F%E8%BF%B0%E4%B8%8E%E9%AA%8C%E8%AF%81"><span class="toc-number">1.0.3.</span> <span class="toc-text">实验3          GBN协议的形式化描述与验证</span></a></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C1-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%8F%8F%E8%BF%B0%E4%B8%8E%E9%AA%8C%E8%AF%81"><span class="toc-number">1.</span> <span class="toc-text">实验1  数据链路层协议的形式化描述与验证</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C2-AB%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%8F%8F%E8%BF%B0%E4%B8%8E%E9%AA%8C%E8%AF%81"><span class="toc-number"></span> <span class="toc-text">实验2          AB协议的形式化描述与验证</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number"></span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C3-GBN%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%8F%8F%E8%BF%B0%E4%B8%8E%E9%AA%8C%E8%AF%81"><span class="toc-number"></span> <span class="toc-text">实验3          GBN协议的形式化描述与验证</span></a>
                 </div>
             </button>
             
