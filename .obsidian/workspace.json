@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "5c4525e4de5aee02",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b5ca67067e04679",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77eb7c95475db2d3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e7a8e652fc6a4af",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcfa1cb3a749b256",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7324056d0254b19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad218c39e8b1f7cd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6cf7d7c4ff6af40a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a6f3468421701e0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c15280aabf47dfcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a10fa449004caf3e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5ecf897182c712c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d00927918fd81ffb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5b9526a94c41a501",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "77eb7c95475db2d3",
+  "lastOpenFiles": [
+    "db.json",
+    "public/archives/2020/index.html",
+    "public/2023/12/a8795185703d.html",
+    "public/2023/12/750033ae77df.html",
+    "public/2023/12/42c5d18bfd50.html",
+    "public/archives/2021/index.html",
+    "public/archives/2023/index.html",
+    "public/2023/12/d3ee2e7c7d0f.html",
+    "public/2023/12/d8b074523156.html",
+    "public/2020/09/96032245be2b.html",
+    "public/2023/12/3c587a4a0ddd.html",
+    "public/assets/avatar/Image_1703346180352.jpg",
+    "public/2020/07/6f3f43cae031/1111.png",
+    "public/lib/iconfont/iconfont.svg",
+    "source/template/_hexo.md",
+    "lib/iconfont/iconfont.svg",
+    "assets/avatar/Image_1703346180352.jpg",
+    "scaffolds/page.md",
+    "scaffolds/draft.md",
+    "source/_posts/unity/u3d学习-2.md",
+    "node_modules/husky/README.md",
+    "source/template/hexo.md",
+    "source/_posts/unity/u3d学习-1.md",
+    "node_modules/hexo-auto-category/README.md",
+    "node_modules/hexo-auto-category/node_modules/hexo-front-matter/README.md",
+    "node_modules/hexo-auto-category/node_modules/js-yaml/README.md",
+    "node_modules/hexo-auto-category/node_modules/js-yaml/CHANGELOG.md",
+    "node_modules/hexo-auto-category/node_modules/hexo-util/README.md",
+    "node_modules/hexo-auto-category/node_modules/entities/readme.md",
+    "node_modules/hexo-auto-category/node_modules/domutils/readme.md",
+    "node_modules/hexo-auto-category/node_modules/dom-serializer/node_modules/entities/readme.md",
+    "node_modules/hexo-auto-category/node_modules/htmlparser2/README.md",
+    "node_modules/hexo-auto-category/node_modules/dom-serializer/README.md",
+    "node_modules/hexo-auto-category/node_modules/domhandler/readme.md",
+    "node_modules/hexo-auto-category/node_modules/hexo-fs/README.md",
+    "node_modules/hexo-auto-category/node_modules/argparse/README.md",
+    "node_modules/hexo-auto-category/node_modules/sprintf-js/README.md",
+    "node_modules/hexo-auto-category/node_modules/argparse/CHANGELOG.md",
+    "source/_posts/对JS闭包的理解.md",
+    "source/_posts/---.md"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "userIgnoreFilters": [
+    "node_modules/",
+    "public/",
+    "scaffolds/",
+    "themes/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "source/_posts",
+  "attachmentFolderPath": "source/assets",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
+}
