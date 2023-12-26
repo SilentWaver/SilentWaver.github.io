@@ -30,7 +30,6 @@ jobs:
         run: |
           git config --global user.name "silentwaver"
           git config --global user.email "silentwaver.code@gmail.com"
-          sed -i'' "s~git@github.com:~https://@github.com/~" _config.yml
           rm -rf .deploy_git
           yarn clean
           yarn build
