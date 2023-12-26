@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/plugins/file-tree-alternative/data.json",
+                "file": ".obsidian/plugins/file-tree-alternative/manifest.json",
                 "staged": false
               }
             }
@@ -160,22 +160,26 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "77eb7c95475db2d3",
+  "active": "e28a4b6da64001d7",
   "lastOpenFiles": [
+    "node_modules/hexo-generator-search/templates/search.xml",
+    "node_modules/hexo-generator-search/templates",
+    "node_modules/hexo-generator-search/README.md",
+    "node_modules/hexo-generator-search/package.json",
+    "node_modules/hexo-generator-search/demo_output/search.xml",
+    "node_modules/hexo-generator-search/demo_output/search.json",
+    "node_modules/hexo-generator-search/demo_output",
+    "node_modules/hexo-generator-search/index.js",
+    "node_modules/hexo-generator-search/LICENSE",
+    "node_modules/hexo-generator-search/lib/json_generator.js",
+    "node_modules/hexo-generator-search/lib/xml_generator.js",
+    "node_modules/hexo-generator-search/lib",
+    "source/aboutme.md",
+    "source/donate.md",
     "source/_posts/unity/u3d学习-1.md",
     "source/_posts/unity/u3d学习-2.md",
     "source/template/_hexo-cover.md",
     "source/template/_hexo.md",
-    "node_modules/hexo-theme-nexmoe/crowdin.yml",
-    "node_modules/hexo-theme-nexmoe/languages/zh.yml",
-    "node_modules/hexo-theme-nexmoe/languages/zh-TW.yml",
-    "node_modules/hexo-theme-nexmoe/languages/zh-HK.yml",
-    "node_modules/hexo-theme-nexmoe/languages/zh-CN.yml",
-    "node_modules/hexo-theme-nexmoe/languages/ja.yml",
-    "node_modules/hexo-theme-nexmoe/languages/it.yml",
-    "node_modules/hexo-theme-nexmoe/languages/en.yml",
-    "node_modules/hexo-theme-nexmoe/languages/default.yml",
-    "node_modules/hexo-theme-nexmoe/languages",
     "node_modules/hexo-theme-nexmoe/README.md",
     "node_modules/hexo-theme-nexmoe/demo/source/_posts/hello-world.md",
     "node_modules/hexo-theme-nexmoe/demo/scaffolds/post.md",
@@ -197,10 +201,6 @@
     "source/_posts/ubuntu-sudo-apt-update-无法解析域名/1111.png",
     "source/_posts/ubuntu-sudo-apt-update-无法解析域名.md",
     "source/_posts/pip 换源.md",
-    "source/_posts/kmeans算法实现中一些问题.md",
-    "source/_posts/hexo-yilia 博客设置.md",
-    "source/_posts/TCP 带外数据传输.md",
-    "source/PY.md",
     "assets/avatar/Image_1703346180352.jpg",
     "public/assets/avatar/Image_1703346180352.jpg",
     "public/lib/iconfont/iconfont.svg",

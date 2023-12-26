@@ -64,6 +64,24 @@ ignore: null
 auto_category:
  enable: true
  depth:
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true 
+    date: false 
+    path: true 
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: false
 theme: nexmoe
 deploy:
   type: git
