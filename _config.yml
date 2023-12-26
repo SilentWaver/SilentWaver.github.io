@@ -67,6 +67,5 @@ auto_category:
 theme: nexmoe
 deploy:
   type: git
-  repo: https://silentwaver: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@github.com/silentwaver/silentwaver.github.io
-  # token: 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
+  repo: https://github.com/silentwaver/silentwaver.github.io
   branch: main
