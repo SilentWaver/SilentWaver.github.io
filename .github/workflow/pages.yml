@@ -1,48 +1,37 @@
-name: Pages
-
+name: Page
 on:
   push:
     branches:
-      - main # default branch
-
+      - "main"
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # If your repository depends on submodule, please see: https://github.com/actions/checkout
-          submodules: recursive
-      - name: Use Node.js 18.x
-        uses: actions/setup-node@v2
+          ref: "main"
+
+      - name: Setup node
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'
-      - name: Cache NPM dependencies
-        uses: actions/cache@v2
+          node-version: "18"
+
+      - name: Setup yarn & Install node_modules
+        uses: borales/actions-yarn@v3.0.0
         with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
-          restore-keys: |
-            ${{ runner.OS }}-npm-cache
-      - name: Install Dependencies
-        run: npm install
-      - name: Build
-        run: npm run build
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./public
-  deploy:
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          cmd: install
+
+      - name: Check yarn & node version
+        run: |
+          echo "Node version is `node -v`"
+          echo "Yarn version is `yarn -v`"
+
+      - name: Build & Deploy
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          sed -i'' "s~git@github.com:~https://${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
+          rm -rf .deploy_git
+          yarn clean
+          yarn build
+          yarn deploy

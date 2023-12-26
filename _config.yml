@@ -68,5 +68,5 @@ theme: nexmoe
 deploy:
   type: git
   repo: https://github.com/silentwaver/silentwaver.github.io
-  # token: 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
+  # token: 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
   branch: main
