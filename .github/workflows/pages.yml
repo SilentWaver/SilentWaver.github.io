@@ -28,8 +28,9 @@ jobs:
 
       - name: Build & Deploy
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --system --unset credential.helper
+          git config --global user.name "silentwaver"
+          git config --global user.email "silentwaver.code@gmail.com"
           sed -i'' "s~git@github.com:~https://${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
           rm -rf .deploy_git
           yarn clean
