@@ -6,7 +6,6 @@ on:
 env:
   GIT_USER: silentwaver
   GIT_EMAIL: silentwaver.code@gmail.com
-  
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -34,7 +33,7 @@ jobs:
         run: |
           git config --global user.name "silentwaver"
           git config --global user.email "silentwaver.code@gmail.com"
-          sed -i'' "s~https://github.com:~https://silentwaver:${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
+          sed -i'' "s~git@github.com:~https://${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
           rm -rf .deploy_git
           yarn clean
           yarn build
