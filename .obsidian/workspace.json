@@ -11,27 +11,14 @@
             "id": "77eb7c95475db2d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/template/_hexo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b541e847fdef105d",
-            "type": "leaf",
-            "state": {
               "type": "diff-view",
               "state": {
-                "file": "source/template/_hexo.md",
+                "file": ".obsidian/plugins/file-tree-alternative/data.json",
                 "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,8 +63,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "4d031b65ee3547bc",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,12 +156,15 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "b541e847fdef105d",
+  "active": "77eb7c95475db2d3",
   "lastOpenFiles": [
+    "source/_posts/unity/u3d学习-1.md",
     "source/_posts/unity/u3d学习-2.md",
+    "source/template/_hexo-cover.md",
     "source/template/_hexo.md",
     "node_modules/hexo-theme-nexmoe/crowdin.yml",
     "node_modules/hexo-theme-nexmoe/languages/zh.yml",
@@ -195,7 +194,6 @@
     "source/_posts/对OSI模型的理解.md",
     "source/_posts/对JS闭包的理解.md",
     "source/_posts/内网穿透实验.md",
-    "source/_posts/unity/u3d学习-1.md",
     "source/_posts/ubuntu-sudo-apt-update-无法解析域名/1111.png",
     "source/_posts/ubuntu-sudo-apt-update-无法解析域名.md",
     "source/_posts/pip 换源.md",
