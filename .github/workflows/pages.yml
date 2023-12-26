@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+env:
+  GIT_USER: silentwaver
+  GIT_EMAIL: silentwaver.code@gmail.com
+  
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
