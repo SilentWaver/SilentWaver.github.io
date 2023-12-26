@@ -67,5 +67,5 @@ auto_category:
 theme: nexmoe
 deploy:
   type: git
-  repo: git@github.com/silentwaver/silentwaver.github.io.git
+  repo: git@github.com:silentwaver/silentwaver.github.io.git
   branch: main
