@@ -82,6 +82,9 @@ jsonContent:
     excerpt: false
     categories: false
     tags: false
+aplayer:
+  meting: true
+  asset_inject: false
 theme: nexmoe
 deploy:
   type: git

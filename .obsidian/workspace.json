@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2b5ca67067e04679",
+        "id": "cfd38f04c30aa687",
         "type": "tabs",
         "children": [
           {
-            "id": "77eb7c95475db2d3",
+            "id": "4176d4a4c96814aa",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/file-tree-alternative/manifest.json",
-                "staged": false
+                "file": "source/_posts/内网穿透实验/zerotier组网.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -77,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "right": {
     "id": "a6f3468421701e0c",
@@ -93,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "source/_posts/内网穿透实验/zerotier组网.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "source/_posts/内网穿透实验/zerotier组网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "source/_posts/内网穿透实验/zerotier组网.md"
+              }
             }
           },
           {
@@ -142,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,51 +165,53 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "e28a4b6da64001d7",
+  "active": "4176d4a4c96814aa",
   "lastOpenFiles": [
-    "node_modules/hexo-generator-search/templates/search.xml",
-    "node_modules/hexo-generator-search/templates",
-    "node_modules/hexo-generator-search/README.md",
-    "node_modules/hexo-generator-search/package.json",
-    "node_modules/hexo-generator-search/demo_output/search.xml",
-    "node_modules/hexo-generator-search/demo_output/search.json",
-    "node_modules/hexo-generator-search/demo_output",
-    "node_modules/hexo-generator-search/index.js",
-    "node_modules/hexo-generator-search/LICENSE",
-    "node_modules/hexo-generator-search/lib/json_generator.js",
-    "node_modules/hexo-generator-search/lib/xml_generator.js",
-    "node_modules/hexo-generator-search/lib",
-    "source/aboutme.md",
-    "source/donate.md",
-    "source/_posts/unity/u3d学习-1.md",
-    "source/_posts/unity/u3d学习-2.md",
-    "source/template/_hexo-cover.md",
-    "source/template/_hexo.md",
-    "node_modules/hexo-theme-nexmoe/README.md",
-    "node_modules/hexo-theme-nexmoe/demo/source/_posts/hello-world.md",
-    "node_modules/hexo-theme-nexmoe/demo/scaffolds/post.md",
-    "node_modules/hexo-theme-nexmoe/demo/scaffolds/page.md",
-    "node_modules/hexo-theme-nexmoe/demo/scaffolds/draft.md",
-    "node_modules/hexo-theme-nexmoe/include/README.md",
-    "node_modules/hexo-theme-nexmoe/source/lib/iconfont/iconfont.svg",
-    "source/_posts/undefined/unity-u3d学习-2.md",
-    "source/assets/avatar/Image_1703346180352.jpg",
-    "source/archives.md",
-    "source/_posts/网络协议分析设计 实验.md",
-    "source/_posts/线程的实现.md",
-    "source/_posts/用hexo搭建博客.md",
-    "source/_posts/爬虫/爬虫学习.md",
-    "source/_posts/正则表达式记录.md",
-    "source/_posts/对OSI模型的理解.md",
-    "source/_posts/对JS闭包的理解.md",
-    "source/_posts/内网穿透实验.md",
-    "source/_posts/ubuntu-sudo-apt-update-无法解析域名/1111.png",
-    "source/_posts/ubuntu-sudo-apt-update-无法解析域名.md",
-    "source/_posts/pip 换源.md",
-    "assets/avatar/Image_1703346180352.jpg",
-    "public/assets/avatar/Image_1703346180352.jpg",
-    "public/lib/iconfont/iconfont.svg",
-    "public/2020/07/6f3f43cae031/1111.png",
-    "lib/iconfont/iconfont.svg"
+    "source/assets/Pasted image 20231228072117.png",
+    "source/assets/Pasted image 20231228071548.png",
+    "source/assets/Pasted image 20231228070905.png",
+    "source/assets/Pasted image 20231228070659.png",
+    "source/assets/Pasted image 20231228070553.png",
+    "source/assets/Pasted image 20231228070338.png",
+    "source/assets/Pasted image 20231228070200.png",
+    "source/assets/Pasted image 20231228065824.png",
+    "source/assets/Pasted image 20231228065648.png",
+    "source/assets/Pasted image 20231228065504.png",
+    "source/_posts/前端/前端面试知识点汇总.md",
+    "source/_posts/内网穿透实验/zerotier组网.md",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release/obj.target/fse",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release/fse.node",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release/obj.target",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/gyp-mac-tool",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/fse.target.mk",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/config.gypi",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/binding.Makefile",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release",
+    "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Makefile",
+    "node_modules/atob/README.md",
+    "node_modules/source-map-url/readme.md",
+    "node_modules/source-map-url/changelog.md",
+    "node_modules/has-values/README.md",
+    "node_modules/posix-character-classes/README.md",
+    "node_modules/core-js/README.md",
+    "node_modules/core-js/CHANGELOG.md",
+    "node_modules/hexo-tag-aplayer/node_modules/highlight.js/styles/school_book.png",
+    "node_modules/nan/README.md",
+    "node_modules/nan/LICENSE.md",
+    "node_modules/nan/CHANGELOG.md",
+    "node_modules/nan/doc/v8_misc.md",
+    "node_modules/nan/doc/v8_internals.md",
+    "node_modules/nan/doc/string_bytes.md",
+    "node_modules/nan/doc/script.md",
+    "node_modules/nan/doc/scopes.md",
+    "node_modules/nan/doc/persistent.md",
+    "node_modules/nan/doc/object_wrappers.md",
+    "node_modules/nan/doc/node_misc.md",
+    "node_modules/nan/doc/new.md",
+    "node_modules/nan/doc/methods.md",
+    "node_modules/nan/doc/maybe_types.md",
+    "node_modules/nan/doc/json.md",
+    "node_modules/nan/doc/errors.md"
   ]
 }
