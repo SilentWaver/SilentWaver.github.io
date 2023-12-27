@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/内网穿透实验/zerotier组网.md",
+                "file": "source/_posts/zerotier组网.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/内网穿透实验/zerotier组网.md",
+                "file": "source/_posts/zerotier组网.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/内网穿透实验/zerotier组网.md",
+                "file": "source/_posts/zerotier组网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/内网穿透实验/zerotier组网.md"
+                "file": "source/_posts/zerotier组网.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -165,7 +165,7 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "4176d4a4c96814aa",
+  "active": "4d031b65ee3547bc",
   "lastOpenFiles": [
     "source/assets/Pasted image 20231228072117.png",
     "source/assets/Pasted image 20231228071548.png",
@@ -178,7 +178,7 @@
     "source/assets/Pasted image 20231228065648.png",
     "source/assets/Pasted image 20231228065504.png",
     "source/_posts/前端/前端面试知识点汇总.md",
-    "source/_posts/内网穿透实验/zerotier组网.md",
+    "source/_posts/zerotier组网.md",
     "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o",
     "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release/obj.target/fse",
     "node_modules/hexo-tag-aplayer/node_modules/fsevents/build/Release/fse.node",
