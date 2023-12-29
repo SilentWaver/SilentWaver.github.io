@@ -1,0 +1,12 @@
+.nexmoe-post-footer {
+    display: none;
+}
+
+
+#about-me-sw {
+    width: 100%;
+    display: flex;
+    & > img {
+        width: 30%;
+    }
+}
