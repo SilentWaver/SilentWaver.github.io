@@ -1,7 +1,8 @@
 ---
 date: 2023-12-28 14:13
 title: Csharp-4 封装,继承与多态
-tags:
+tags: 
+cover: https://raw.githubusercontent.com/silentwaver/DrawBed/main/images/202312291916086.JPG
 ---
 ## 封装
 封装的目的:防止对实现细节的访问,对外部访问做有效控制,维护数据的有效性,安全性
