@@ -1,6 +1,6 @@
 ---
 date: 2023-12-28 14:13
-title: Csharp-3 封装,继承与多态
+title: Csharp-4 封装,继承与多态
 tags:
 ---
 ## 封装

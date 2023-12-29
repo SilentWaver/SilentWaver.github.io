@@ -1,6 +1,6 @@
 ---
 date: 2023-12-29 18:52
-title: Csharp-4 类,接口,命名空间
+title: Csharp-5 类,接口,命名空间
 tags:
 ---
 
