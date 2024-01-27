@@ -1,6 +1,8 @@
 ---
-date: 2024-01-02 16:16
-title: Csharp-7 特性,反射,属性
+date: '2024-01-02 16:16'
+title: 'Csharp-7 特性,反射,属性'
+categories:
+  - C#
 tags:
 ---
 ## 属性(Property)

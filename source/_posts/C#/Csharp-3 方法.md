@@ -1,6 +1,8 @@
 ---
-date: 2023-12-28 15:58
+date: '2023-12-28 15:58'
 title: Csharp-3 方法
+categories:
+  - C#
 tags:
 ---
 ## 方法

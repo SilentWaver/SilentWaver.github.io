@@ -1,6 +1,8 @@
 ---
-date: 2023-12-28 11:31
+date: '2023-12-28 11:31'
 title: Csharp-2 编程语言通用概念
+categories:
+  - C#
 tags:
 ---
 ## 变量,常量

@@ -1,6 +1,8 @@
 ---
-date: 2024-01-03 13:22
-title: Csharp-8 委托,事件
+date: '2024-01-03 13:22'
+title: 'Csharp-8 委托,事件'
+categories:
+  - C#
 tags:
 ---
 ## 委托(Delegate)

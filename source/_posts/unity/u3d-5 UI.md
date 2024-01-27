@@ -1,6 +1,8 @@
 ---
-date: 2024-01-16 16:41
+date: '2024-01-16 16:41'
 title: u3d-5 UI
+categories:
+  - unity
 tags:
 ---
 

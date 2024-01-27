@@ -1,6 +1,8 @@
 ---
-date: 2024-01-03 16:02
+date: '2024-01-03 16:02'
 title: Csharp-9 集合
+categories:
+  - C#
 tags:
 ---
 
