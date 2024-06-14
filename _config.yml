@@ -63,7 +63,7 @@ ignore: null
 # depth: the depth of directory-tree you want to generate, should > 0
 auto_category:
  enable: true
- depth:
+ depth: 1
 jsonContent:
   meta: false
   pages: false
