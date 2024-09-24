@@ -1,9 +1,10 @@
 ---
-date: 2023-12-28 06:41
+date: '2023-12-28 06:41'
 title: zerotier组网
 tags:
   - 网络
   - 内网穿透
+categories: []
 ---
 设备: mac,刷了openwrt的路由器(redmi_ac2100)
 

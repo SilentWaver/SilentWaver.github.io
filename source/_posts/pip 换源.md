@@ -1,6 +1,7 @@
 ---
 title: pip 换源
 date: 2020-9-23
+categories: []
 ---
 
 解决pip安装时各种readtimeout问题

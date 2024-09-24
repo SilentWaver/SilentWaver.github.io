@@ -1,10 +1,9 @@
 ---
 title: ubuntu sudo apt update 无法解析域名解决办法
 date: 2020-7-19
-categories:
-    - linux
-
---- 
+categories: []
+---
+ 
 <!-- more -->
 2020.8.30
 最近开学忙，有个点想说给忘了，今天加上去

@@ -1,6 +1,7 @@
 ---
 title: 用hexo搭建博客
 date: 2020-7-15
+categories: []
 ---
 
 cnm搭了一晚上现在是15日0：07
